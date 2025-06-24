@@ -10148,4 +10148,10 @@ textarea.form-control-lg {
 }
 .text-green-1 {
   color: #3F5D45 !important;
+}
+
+.text-size-navbar {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 500;
 }/*# sourceMappingURL=all.css.map */
