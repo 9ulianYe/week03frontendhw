@@ -4,19 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="scss/all.css" /> 
+    <link rel="stylesheet" href="scss/all.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
   </head>
   <body>
-    
-    
+    <!-- box-1 -->
+    <div class="box1 bg-green-1">
+      <div class="container">
+        <div class="row">
+          <!--訂閱你我的甜蜜郵件  -->
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <img src="/img/logo-light.svg" width="40" height="40" alt="" />
+            <p class="text-size-footer-box1 text-white-1 text-center mb-0 ms-3">
+              訂閱你我的甜蜜郵件
+            </p>
+          </div>
+          <!-- 輸入電子信箱 -->
+          <div class="col-6">
+            <section class="newsletter-section py-4">
+              <div class="container">
+                <div class="d-flex justify-content-center">
+                  <form
+                    class="d-flex newsletter-box"
+                    style="max-width: 600px; width: 100%"
+                  >
+                    <!-- icon -->
+                    <span
+                      class="d-flex align-items-center justify-content-center icon-box"
+                    >
+                      <i class="material-icons icon-mail">mail</i>
+                    </span>
 
+                    <!-- input -->
+                    <input
+                      type="email"
+                      class="form-control border-0 email-input"
+                      placeholder="請輸入電子信箱"
+                      required
+                    />
 
-
-
+                    <!-- arrow button -->
+                    <button
+                      type="submit"
+                      class="btn arrow-btn d-flex align-items-center justify-content-center"
+                    >
+                      <i class="material-icons">arrow_forward</i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- box-2 -->
+    <div class="box2"></div>
+    <!-- box-3 -->
+    <div class="box3"></div>
 
     <!-- JS -->
     <script
@@ -24,7 +72,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <script src="js/include.js"></script>  
+    <script src="js/include.js"></script>
     <!--  -->
   </body>
 </html>

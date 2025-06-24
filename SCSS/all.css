@@ -10150,8 +10150,65 @@ textarea.form-control-lg {
   color: #3F5D45 !important;
 }
 
+.text-white-1 {
+  color: #FFFFFF;
+}
+
+.bg-green-1 {
+  background-color: #3F5D45;
+}
+
 .text-size-navbar {
   font-size: 16px;
   line-height: 27px;
   font-weight: 500;
+}
+
+.text-size-footer-box1 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.newsletter-section {
+  background-color: #3F5D45;
+}
+
+.newsletter-box {
+  background-color: #EDF2F2;
+  overflow: hidden;
+  height: 56px;
+}
+
+.icon-box {
+  width: 56px;
+  height: 100%;
+  background-color: transparent;
+  padding-left: 16px;
+}
+
+.icon-mail {
+  font-size: 24px;
+  color: #3F5D45;
+}
+
+.email-input {
+  background-color: transparent;
+  color: #3F5D45;
+  font-size: 16px;
+}
+.email-input::-moz-placeholder {
+  color: #3F5D45;
+}
+.email-input::placeholder {
+  color: #3F5D45;
+}
+
+.arrow-btn {
+  width: 64px;
+  background-color: #FFE180;
+  border: none;
+}
+.arrow-btn i {
+  color: #3F5D45;
+  font-size: 24px;
 }/*# sourceMappingURL=all.css.map */
