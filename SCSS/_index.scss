@@ -1,16 +1,17 @@
-// 色彩變數區 
-$green-1: #3F5D45;
 
 // 色彩文字 class
 .text-green-1 {
-  color: $green-1 !important;
+  color: #3F5D45;
 }
 .text-white-1{
   color: #FFFFFF;
 }
 
 .bg-green-1{
-  background-color: #3F5D45
+  background-color: #3F5D45;
+}
+.bg-green-2{
+  background-color: #EAF0ED;
 }
 
 .text-size-navbar {
@@ -22,6 +23,11 @@ $green-1: #3F5D45;
   font-size: 24px;
   line-height: 29px;
 }
+.text-size-footer-box2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 // footer
 .newsletter-section {
   background-color: #3F5D45; // 背景深綠

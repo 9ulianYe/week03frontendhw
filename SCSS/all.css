@@ -10147,7 +10147,7 @@ textarea.form-control-lg {
   }
 }
 .text-green-1 {
-  color: #3F5D45 !important;
+  color: #3F5D45;
 }
 
 .text-white-1 {
@@ -10156,6 +10156,10 @@ textarea.form-control-lg {
 
 .bg-green-1 {
   background-color: #3F5D45;
+}
+
+.bg-green-2 {
+  background-color: #EAF0ED;
 }
 
 .text-size-navbar {
@@ -10167,6 +10171,11 @@ textarea.form-control-lg {
 .text-size-footer-box1 {
   font-size: 24px;
   line-height: 29px;
+}
+
+.text-size-footer-box2 {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .newsletter-section {
