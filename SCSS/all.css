@@ -10178,6 +10178,11 @@ textarea.form-control-lg {
   line-height: 24px;
 }
 
+.text-size-footer-box3 {
+  font-size: 16px;
+  line-height: 19px;
+}
+
 .newsletter-section {
   background-color: #3F5D45;
 }
