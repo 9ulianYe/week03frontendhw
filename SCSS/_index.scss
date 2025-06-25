@@ -6,7 +6,7 @@
 .text-white-1{
   color: #FFFFFF;
 }
-
+// 背景顏色
 .bg-green-1{
   background-color: #3F5D45;
 }
@@ -16,7 +16,10 @@
 .bg-yellow {
   background-color: #FFE180;
 }
-
+.bg-white{
+  background-color: #FFFFFF
+}
+//文字大小間距
 .text-size-navbar {
   font-size: 16px;
   line-height: 27px;
@@ -39,12 +42,15 @@
   line-height: 36px;
 }
 
-.img-w-100{
-  width: 100px;
+//其他
+.img-h-24{
+  height: 24px
 }
-.border-green-2 {
-  border: 1px solid #EAF0ED;
+.border-g2 {
+  border: 2px solid #EAF0ED;
 }
+
+
 // footer
 .newsletter-section {
   background-color: #3F5D45; // 背景深綠

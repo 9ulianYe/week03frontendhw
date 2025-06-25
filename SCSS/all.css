@@ -10525,6 +10525,10 @@ textarea.form-control-lg {
   background-color: #FFE180;
 }
 
+.bg-white {
+  background-color: #FFFFFF;
+}
+
 .text-size-navbar {
   font-size: 16px;
   line-height: 27px;
@@ -10551,12 +10555,12 @@ textarea.form-control-lg {
   line-height: 36px;
 }
 
-.img-w-100 {
-  width: 100px;
+.img-h-24 {
+  height: 24px;
 }
 
-.border-green-2 {
-  border: 1px solid #EAF0ED;
+.border-g2 {
+  border: 2px solid #EAF0ED;
 }
 
 .newsletter-section {
