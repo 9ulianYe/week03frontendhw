@@ -10555,6 +10555,11 @@ textarea.form-control-lg {
   line-height: 36px;
 }
 
+.text-size-24-33 {
+  font-size: 24px;
+  line-height: 33px;
+}
+
 .text-size-16-36 {
   font-size: 16px;
   line-height: 16px;
