@@ -10506,27 +10506,27 @@ textarea.form-control-lg {
   }
 }
 .text-green-1 {
-  color: #3F5D45;
+  color: #3f5d45;
 }
 
 .text-white-1 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bg-green-1 {
-  background-color: #3F5D45;
+  background-color: #3f5d45;
 }
 
 .bg-green-2 {
-  background-color: #EAF0ED;
+  background-color: #eaf0ed;
 }
 
 .bg-yellow {
-  background-color: #FFE180;
+  background-color: #ffe180;
 }
 
 .bg-white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .text-size-navbar {
@@ -10555,20 +10555,25 @@ textarea.form-control-lg {
   line-height: 36px;
 }
 
+.text-size-16-36 {
+  font-size: 16px;
+  line-height: 16px;
+}
+
 .img-h-24 {
   height: 24px;
 }
 
 .border-g2 {
-  border: 2px solid #EAF0ED;
+  border: 2px solid #eaf0ed;
 }
 
 .newsletter-section {
-  background-color: #3F5D45;
+  background-color: #3f5d45;
 }
 
 .newsletter-box {
-  background-color: #EDF2F2;
+  background-color: #edf2f2;
   overflow: hidden;
   height: 56px;
 }
@@ -10582,28 +10587,28 @@ textarea.form-control-lg {
 
 .icon-mail {
   font-size: 24px;
-  color: #3F5D45;
+  color: #3f5d45;
 }
 
 .email-input {
   background-color: transparent;
-  color: #3F5D45;
+  color: #3f5d45;
   font-size: 16px;
 }
 .email-input::-moz-placeholder {
-  color: #3F5D45;
+  color: #3f5d45;
 }
 .email-input::placeholder {
-  color: #3F5D45;
+  color: #3f5d45;
 }
 
 .arrow-btn {
   width: 64px;
-  background-color: #FFE180;
+  background-color: #ffe180;
   border: none;
 }
 .arrow-btn i {
-  color: #3F5D45;
+  color: #3f5d45;
   font-size: 24px;
 }
 
