@@ -109,3 +109,15 @@
 .login-button .btn {
   border-radius: 0 !important;
 }
+
+//login page 換背景
+.background-switch {
+  background-color: #3f5d45; /* 手機版：綠色 */
+  
+}
+
+@media (min-width: 992px) {
+  .background-switch {
+    background-color: #ffffff; /* 桌機版：白色 */
+  }
+}
