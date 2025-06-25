@@ -13,6 +13,9 @@
 .bg-green-2{
   background-color: #EAF0ED;
 }
+.bg-yellow {
+  background-color: #FFE180;
+}
 
 .text-size-navbar {
   font-size: 16px;
@@ -30,6 +33,10 @@
 .text-size-footer-box3 {
   font-size: 16px;
   line-height: 19px;
+}
+.text-size-36-36{
+  font-size: 36px;
+  line-height: 36px;
 }
 
 // footer
@@ -74,4 +81,11 @@
     color: #3F5D45;
     font-size: 24px;
   }
+}
+
+/* 針對登入頁輸入框和按鈕去圓角 */
+.input-group .form-control,
+.input-group .input-group-text,
+.login-button .btn {
+  border-radius: 0 !important;
 }
