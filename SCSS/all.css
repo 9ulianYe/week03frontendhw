@@ -10555,6 +10555,10 @@ textarea.form-control-lg {
   width: 100px;
 }
 
+.border-green-2 {
+  border: 1px solid #EAF0ED;
+}
+
 .newsletter-section {
   background-color: #3F5D45;
 }
