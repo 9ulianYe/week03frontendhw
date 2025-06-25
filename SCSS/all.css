@@ -10551,6 +10551,10 @@ textarea.form-control-lg {
   line-height: 36px;
 }
 
+.img-w-100 {
+  width: 100px;
+}
+
 .newsletter-section {
   background-color: #3F5D45;
 }
