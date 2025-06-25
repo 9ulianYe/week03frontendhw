@@ -1,29 +1,28 @@
-
 // 色彩文字 class
 .text-green-1 {
-  color: #3F5D45;
+  color: #3f5d45;
 }
-.text-white-1{
-  color: #FFFFFF;
+.text-white-1 {
+  color: #ffffff;
 }
 // 背景顏色
-.bg-green-1{
-  background-color: #3F5D45;
+.bg-green-1 {
+  background-color: #3f5d45;
 }
-.bg-green-2{
-  background-color: #EAF0ED;
+.bg-green-2 {
+  background-color: #eaf0ed;
 }
 .bg-yellow {
-  background-color: #FFE180;
+  background-color: #ffe180;
 }
-.bg-white{
-  background-color: #FFFFFF
+.bg-white {
+  background-color: #ffffff;
 }
 //文字大小間距
 .text-size-navbar {
   font-size: 16px;
   line-height: 27px;
-  font-weight: 500; 
+  font-weight: 500;
 }
 .text-size-footer-box1 {
   font-size: 24px;
@@ -37,27 +36,26 @@
   font-size: 16px;
   line-height: 19px;
 }
-.text-size-36-36{
+.text-size-36-36 {
   font-size: 36px;
   line-height: 36px;
 }
 
 //其他
-.img-h-24{
-  height: 24px
+.img-h-24 {
+  height: 24px;
 }
 .border-g2 {
-  border: 2px solid #EAF0ED;
+  border: 2px solid #eaf0ed;
 }
-
 
 // footer
 .newsletter-section {
-  background-color: #3F5D45; // 背景深綠
+  background-color: #3f5d45; // 背景深綠
 }
 
 .newsletter-box {
-  background-color: #EDF2F2; // 淡綠灰
+  background-color: #edf2f2; // 淡綠灰
   overflow: hidden;
   height: 56px;
 }
@@ -71,26 +69,26 @@
 
 .icon-mail {
   font-size: 24px;
-  color: #3F5D45;
+  color: #3f5d45;
 }
 
 .email-input {
   background-color: transparent;
-  color: #3F5D45;
+  color: #3f5d45;
   font-size: 16px;
 
   &::placeholder {
-    color: #3F5D45;
+    color: #3f5d45;
   }
 }
 
 .arrow-btn {
   width: 64px;
-  background-color: #FFE180;
+  background-color: #ffe180;
   border: none;
 
   i {
-    color: #3F5D45;
+    color: #3f5d45;
     font-size: 24px;
   }
 }
@@ -101,3 +99,4 @@
 .login-button .btn {
   border-radius: 0 !important;
 }
+
