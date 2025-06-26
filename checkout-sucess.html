@@ -11,29 +11,38 @@
     />
   </head>
   <body>
-    <!-- navbar -->
+    <!-- 1.navbar -->
     <div data-include="navbar.html"></div>
 
-    <!-- content -->
-    <!-- 三個完成按鈕-->
-    <div class="process-steps">
-      <div class="step-circle">done</div>
-      <div class="step-circle">done</div>
-      <div class="step-circle">done</div>
+    <!-- 2.content -->
+
+    <!-- 2.1 container -->
+    <div class="container">
+      <div class="row justify-content-center"> 
+        <div class="col-lg-4"> 
+          <!-- 三個完成按鈕-->
+          <div class="process-steps">
+            <div class="step-circle">done</div>
+            <div class="step-circle">done</div>
+            <div class="step-circle">done</div>
+          </div>
+
+          <!-- 付款成功 -->
+          <h1 class="mb-5 text-center">
+            <img src="img/lg-付款成功.svg" width="190" alt="" />
+          </h1>
+
+          <!-- 繼續逛逛(內) -->
+          <a
+            class="btn btn-block btn-lg d-none d-lg-block text-decoration-none py-3 bg-yellow text-green-1 fw-bold"
+            href="*"
+          >
+            繼續逛逛
+          </a>
+        </div>
+      </div>
     </div>
 
-    <!-- 付款成功 -->
-    <h1 class="mb-5 text-center">
-      <img src="img/lg-付款成功.svg" width="190" alt="" />
-    </h1>
-
-    <!-- 繼續逛逛(內) -->
-    <a
-      class="btn btn-block btn-lg d-none d-lg-block text-decoration-none py-3 bg-yellow text-green-1 fw-bold"
-      href="*"
-    >
-      繼續逛逛
-    </a>
     <!-- footer -->
     <div data-include="footer.html"></div>
 
