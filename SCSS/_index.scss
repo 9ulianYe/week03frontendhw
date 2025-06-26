@@ -171,6 +171,11 @@
   font-size: 24px;
 }
 //checkout-1 page
+.progress-steps {
+  display: flex;
+  align-items: center;
+}
+
 .circle-outer {
   display: inline-flex;
   border: 1px solid white;
@@ -189,7 +194,7 @@
   background-color: white;
 }
 .link-line {
-  color: red;
+  color: #8da291;
 }
 
 .hollow-circle {
