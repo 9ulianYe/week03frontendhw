@@ -62,11 +62,6 @@
   line-height: 50px;
 }
 
-.text-size-20-40 {
-  font-size: 20px;
-  line-height: 40px;
-}
-
 // spacing
 .m-y-40 {
   margin-top: 40px;
@@ -212,4 +207,19 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
+}
+
+.input-box-text-style {
+  font-size: 20px;
+  line-height: 28px;
+  color: #eaf0ed;
+  margin-bottom: 8px;
+}
+.input-box-column-style {
+  padding: 15px;
+  border-radius: 0;
+  background: #eaf0ed;
+}
+.input-box-column-style::placeholder {
+  color: #8da291;
 }
