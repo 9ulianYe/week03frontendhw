@@ -10514,7 +10514,7 @@ textarea.form-control-lg {
 }
 
 .text-green-2 {
-  color: #8DA291;
+  color: #8da291;
 }
 
 .bg-green-1 {
@@ -10666,15 +10666,15 @@ textarea.form-control-lg {
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #3F5D45;
+  background-color: #3f5d45;
   z-index: 0;
 }
 
 .step-circle {
   height: 40px;
   width: 40px;
-  background-color: #3F5D45;
-  color: #EAF0ED;
+  background-color: #3f5d45;
+  color: #eaf0ed;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -10682,4 +10682,38 @@ textarea.form-control-lg {
   z-index: 1;
   font-family: "Material Icons";
   font-size: 24px;
+}
+
+.circle-outer {
+  display: inline-flex;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.circle-inner {
+  border: 1px solid white;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.link-line {
+  background: white;
+  border: 1px solid white;
+  width: 20px;
+  height: 10px;
+}
+
+.hollow-circle {
+  display: inline-block;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }/*# sourceMappingURL=all.css.map */

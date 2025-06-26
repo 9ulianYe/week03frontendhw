@@ -5,8 +5,8 @@
 .text-white-1 {
   color: #ffffff;
 }
-.text-green-2{
-  color: #8DA291
+.text-green-2 {
+  color: #8da291;
 }
 // 背景顏色
 .bg-green-1 {
@@ -53,22 +53,20 @@
   font-size: 16px;
   line-height: 16px;
 }
-.text-size-36-50{
+.text-size-36-50 {
   font-size: 36px;
   line-height: 50px;
 }
 
 // spacing
-.m-y-40{
+.m-y-40 {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.py-40px{
+.py-40px {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
-
 
 //其他
 .img-h-24 {
@@ -132,7 +130,6 @@
 //login page 換背景
 .background-switch {
   background-color: #3f5d45; /* 手機版：綠色 */
-  
 }
 
 @media (min-width: 992px) {
@@ -156,20 +153,51 @@
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #3F5D45; // 深綠線
+  background-color: #3f5d45; // 深綠線
   z-index: 0;
 }
 
 .step-circle {
   height: 40px;
   width: 40px;
-  background-color: #3F5D45; // 深綠背景
-  color: #EAF0ED;            // 白色勾勾
+  background-color: #3f5d45; // 深綠背景
+  color: #eaf0ed; // 白色勾勾
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1;
-  font-family: 'Material Icons'; // 引用 material icon 字型
+  font-family: "Material Icons"; // 引用 material icon 字型
   font-size: 24px;
+}
+//checkout-1 page
+.circle-outer {
+  display: inline-flex;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.circle-inner {
+  border: 1px solid white;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+}
+.link-line {
+  background: white;
+  border: 1px solid white;
+  width: 20px;
+  height: 10px;
+}
+.hollow-circle {
+  display: inline-block;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
