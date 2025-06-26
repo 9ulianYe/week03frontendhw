@@ -10646,4 +10646,35 @@ textarea.form-control-lg {
   .background-switch {
     background-color: #ffffff; /* 桌機版：白色 */
   }
+}
+.process-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 60px;
+}
+
+.process-steps::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #3F5D45;
+  z-index: 0;
+}
+
+.step-circle {
+  height: 40px;
+  width: 40px;
+  background-color: #3F5D45;
+  color: #EAF0ED;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  font-family: "Material Icons";
+  font-size: 24px;
 }/*# sourceMappingURL=all.css.map */
