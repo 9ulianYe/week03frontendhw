@@ -10517,6 +10517,10 @@ textarea.form-control-lg {
   color: #8da291;
 }
 
+.text-green-3 {
+  color: #eaf0ed;
+}
+
 .bg-green-1 {
   background-color: #3f5d45;
 }
@@ -10572,6 +10576,11 @@ textarea.form-control-lg {
 .text-size-36-50 {
   font-size: 36px;
   line-height: 50px;
+}
+
+.text-size-20-40 {
+  font-size: 20px;
+  line-height: 40px;
 }
 
 .m-y-40 {
