@@ -10695,13 +10695,14 @@ textarea.form-control-lg {
 
 .circle-outer {
   display: inline-flex;
-  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid white;
   vertical-align: middle;
+  flex-shrink: 0;
 }
 
 .circle-inner {
@@ -10722,6 +10723,7 @@ textarea.form-control-lg {
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .input-box-text-style {
