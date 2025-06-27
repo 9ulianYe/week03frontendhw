@@ -10521,6 +10521,26 @@ textarea.form-control-lg {
   color: #eaf0ed;
 }
 
+.tc-style-g-2433 {
+  font-size: 24px;
+  line-height: 44px;
+  color: #8da291;
+  font-weight: 700;
+}
+
+.tc-style-g-1622 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8da291;
+}
+
+.tc-style-g-2028 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #8da291;
+  font-weight: 700;
+}
+
 .bg-green-1 {
   background-color: #3f5d45;
 }
@@ -10576,6 +10596,11 @@ textarea.form-control-lg {
 .text-size-36-50 {
   font-size: 36px;
   line-height: 50px;
+}
+
+.text-size-16-22 {
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .m-y-40 {
