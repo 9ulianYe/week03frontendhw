@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>checkout-1</title>
+    <title>checkout-2</title>
     <link rel="stylesheet" href="scss/all.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -16,17 +16,17 @@
 
     <!-- 2.content -->
 
-    <div class="row justify-content-center align-items-center text-center">
+    <div class="row">
       <div class="col-12 col-lg-6">
         <!-- 左邊欄 -->
         <div class="container">
-          <!-- 運送與三個圓點 -->
+          <!-- 付款與三個圓點 -->
           <div
             class="row bg-green-1 d-flex justify-content-center align-items-center"
           >
-            <!-- 運送 -->
+            <!-- 付款 -->
             <div class="col-6">
-              <h1 class="text-green-3 text-size-36-50">運送</h1>
+              <h1 class="text-green-3 text-size-36-50">付款</h1>
             </div>
             <!-- 三個圓點(第一步) -->
             <div class="col-6">
@@ -42,18 +42,39 @@
             </div>
           </div>
 
-          <!-- 姓名 -->
+          <!-- 信用卡卡號 -->
+          <div class="row bg-green-1">
+            <div class="col-12">
+              <div class="input-box mb-3">
+                <label
+                  for="credit-card-number"
+                  class="form-label input-box-text-style"
+                >
+                </label>
+                <input
+                  type="text"
+                  name="credit-card-number"
+                  id="credit-card-number"
+                  placeholder="1234-5678-0000"
+                  class="form-control form-control-lg input-box-column-style"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- 持卡人姓名 -->
           <div class="row bg-green-1">
             <!-- 姓 -->
             <div class="col-6">
               <div class="input-box mb-3">
-                <label for="last-name" class="form-label input-box-text-style"
+                <label
+                  for="creditcard-last-name"
+                  class="form-label input-box-text-style"
                   >姓氏</label
                 >
                 <input
                   type="text"
-                  name="last-name"
-                  id="last-name"
+                  name="creditcard-last-name"
+                  id="creditcard-last-name"
                   placeholder="葉"
                   class="form-control form-control-lg input-box-column-style"
                 />
@@ -62,13 +83,15 @@
             <!-- 名 -->
             <div class="col-6">
               <div class="input-box mb-3">
-                <label for="first-name" class="form-label input-box-text-style"
+                <label
+                  for="creditcard-first-name"
+                  class="form-label input-box-text-style"
                   >名字</label
                 >
                 <input
                   type="text"
-                  name="first-name"
-                  id="first-name"
+                  name="creditcard-first-name"
+                  id="creditcard-first-name"
                   placeholder="大熊"
                   class="form-control form-control-lg input-box-column-style"
                 />
@@ -76,74 +99,59 @@
             </div>
           </div>
 
-          <!-- 電話 -->
+          <!-- 有效期限 -->
           <div class="row bg-green-1">
-            <div class="col-12">
-              <div class="input-box mb-3">
-                <label for="phone" class="form-label input-box-text-style"
-                  >電話</label
-                >
-                <input
-                  type="tel"
-                  name="phone"
-                  id="phone"
-                  placeholder="0912345678"
-                  class="form-control form-control-lg input-box-column-style"
-                />
-              </div>
-            </div>
-          </div>
-          <!-- 住址 -->
-          <div class="row bg-green-1">
-            <label for="" class="form-label input-box-text-style">地址</label>
-            <!-- 市 -->
+            <label for="" class="form-label input-box-text-style"
+              >有效期限</label
+            >
+            <!-- 年 -->
             <div class="col-6">
               <div class="input-box mb-3">
                 <label
-                  for="city"
+                  for="year"
                   class="form-label input-box-text-style d-none"
                 ></label>
                 <select
-                  name="city"
-                  id="city"
-                  placeholder="高雄市"
+                  name="year"
+                  id="year"
+                  placeholder="年"
                   class="form-control form-control-lg input-box-column-style"
                 >
-                  <option value="高雄市">高雄市</option>
+                  <option value="黏">年</option>
                 </select>
               </div>
             </div>
-            <!-- 區 -->
+            <!-- 月 -->
             <div class="col-6">
               <div class="input-box mb-3">
                 <label
-                  for="district"
+                  for="month"
                   class="form-label input-box-text-style d-none"
                 >
                 </label>
                 <select
-                  name="district"
-                  id="district"
+                  name="month"
+                  id="month"
                   class="form-control form-control-lg input-box-column-style"
-                  placeholder="三民區"
+                  placeholder="月"
                 >
-                  <option value="三民區">三民區</option>
+                  <option value="月">月</option>
                 </select>
               </div>
             </div>
-            <!-- 地址 -->
-            <div class="col-12">
+          </div>
+          <!-- 背後末三碼 -->
+          <div class="row bg-green-1">
+            <div class="col-6">
               <div class="input-box mb-3">
-                <label
-                  for="address"
-                  class="form-label input-box-text-style d-none"
-                >
+                <label for="3-number" class="form-label input-box-text-style">
+                  背後末三碼
                 </label>
                 <input
                   type="text"
-                  name="address"
-                  id="address"
-                  placeholder="十全一路100號"
+                  name="3-number"
+                  id="3-number"
+                  placeholder="123"
                   class="form-control form-control-lg input-box-column-style"
                 />
               </div>
@@ -162,7 +170,9 @@
           </div>
         </div>
       </div>
-      <div class="col-4 d-none d-lg-block">
+      <div
+        class="col-4 d-none d-lg-block justify-content-center align-items-center text-center"
+      >
         <!-- 右邊欄 -->
         <div class="right-bar">
           <!-- 上方的box -->
