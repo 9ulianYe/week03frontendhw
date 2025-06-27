@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>checkout-2</title>
+    <title>checkout-3-1</title>
     <link rel="stylesheet" href="scss/all.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -17,154 +17,100 @@
     <!-- 2.content -->
 
     <div class="row">
+      <!-- 左邊欄 -->
       <div class="col-12 col-lg-6">
-        <!-- 左邊欄 -->
         <div class="container">
-          <!-- 付款與三個圓點 -->
+          <!-- 發票與進度條 -->
           <div
             class="row bg-green-1 d-flex justify-content-center align-items-center"
-            --
           >
+            <!-- 發票標題 -->
             <div class="col-6">
-              <h1 class="text-green-3 text-size-36-50">付款</h1>
+              <h1 class="text-green-3 text-size-36-50">發票</h1>
             </div>
-            <!-- 三個圓點(第一步) -->
+            <!-- 三個圓點 -->
             <div class="col-6">
-              <div class="progress-steps">
+              <div
+                class="progress-steps d-flex justify-content-end align-items-center"
+              >
                 <span class="circle-outer"
-                  ><span class="circle-inner"></span>
-                </span>
-                <span class="link-line">-⎯⎯⎯-</span>
-                <span class="hollow-circle text-center"> </span>
-                <span class="link-line">-⎯⎯⎯-</span>
-                <span class="hollow-circle text-center"> </span>
+                  ><span class="circle-inner"></span
+                ></span>
+                <span class="link-line">⎯⎯⎯⎯⎯</span>
+                <span class="circle-outer"
+                  ><span class="circle-inner"></span
+                ></span>
+                <span class="link-line">⎯⎯⎯⎯⎯</span>
+                <span class="hollow-circle"></span>
               </div>
             </div>
           </div>
 
-          <!-- 信用卡卡號 -->
+          <!-- 電子發票與郵寄發票按鈕 -->
+          <div class="row bg-green-1">
+            <div class="col-12">
+              <div class="d-flex border">
+                <!-- 電子發票（選中） -->
+                <div
+                  class="flex-fill text-center py-2 bg-white text-green-1 fw-bold text-size-20-28"
+                >
+                  電子發票
+                </div>
+                <!-- 郵寄發票（超連結） -->
+                <a
+                  href="#"
+                  class="flex-fill text-center py-2 text-white text-decoration-none border-start text-size-20-28"
+                >
+                  郵寄發票
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 電子郵件信箱 -->
           <div class="row bg-green-1">
             <div class="col-12">
               <div class="input-box mb-3">
-                <label
-                  for="credit-card-number"
-                  class="form-label input-box-text-style"
-                >
-                </label>
-                <input
-                  type="text"
-                  name="credit-card-number"
-                  id="credit-card-number"
-                  placeholder="1234-5678-0000"
-                  class="form-control form-control-lg input-box-column-style"
-                />
-              </div>
-            </div>
-          </div>
-          <!-- 持卡人姓名 -->
-          <div class="row bg-green-1">
-            <!-- 姓 -->
-            <div class="col-6">
-              <div class="input-box mb-3">
-                <label
-                  for="creditcard-last-name"
-                  class="form-label input-box-text-style"
-                  >姓氏</label
+                <label for="email" class="form-label input-box-text-style"
+                  >電子郵件信箱</label
                 >
                 <input
-                  type="text"
-                  name="creditcard-last-name"
-                  id="creditcard-last-name"
-                  placeholder="葉"
-                  class="form-control form-control-lg input-box-column-style"
-                />
-              </div>
-            </div>
-            <!-- 名 -->
-            <div class="col-6">
-              <div class="input-box mb-3">
-                <label
-                  for="creditcard-first-name"
-                  class="form-label input-box-text-style"
-                  >名字</label
-                >
-                <input
-                  type="text"
-                  name="creditcard-first-name"
-                  id="creditcard-first-name"
-                  placeholder="大熊"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@email.com"
                   class="form-control form-control-lg input-box-column-style"
                 />
               </div>
             </div>
           </div>
 
-          <!-- 有效期限 -->
+          <!-- 統一編號 -->
           <div class="row bg-green-1">
-            <label for="" class="form-label input-box-text-style"
-              >有效期限</label
-            >
-            <!-- 年 -->
-            <div class="col-6">
+            <div class="col-12">
               <div class="input-box mb-3">
-                <label
-                  for="year"
-                  class="form-label input-box-text-style d-none"
-                ></label>
-                <select
-                  name="year"
-                  id="year"
-                  placeholder="年"
-                  class="form-control form-control-lg input-box-column-style"
+                <label for="tax-id" class="form-label input-box-text-style"
+                  >統一編號（選填）</label
                 >
-                  <option value="黏">年</option>
-                </select>
-              </div>
-            </div>
-            <!-- 月 -->
-            <div class="col-6">
-              <div class="input-box mb-3">
-                <label
-                  for="month"
-                  class="form-label input-box-text-style d-none"
-                >
-                </label>
-                <select
-                  name="month"
-                  id="month"
-                  class="form-control form-control-lg input-box-column-style"
-                  placeholder="月"
-                >
-                  <option value="月">月</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <!-- 背後末三碼 -->
-          <div class="row bg-green-1">
-            <div class="col-6">
-              <div class="input-box mb-3">
-                <label for="3-number" class="form-label input-box-text-style">
-                  背後末三碼
-                </label>
                 <input
                   type="text"
-                  name="3-number"
-                  id="3-number"
-                  placeholder="123"
+                  name="tax-id"
+                  id="tax-id"
+                  placeholder="12345678"
                   class="form-control form-control-lg input-box-column-style"
                 />
               </div>
             </div>
           </div>
-          <!-- 下一步 -->
+
+          <!-- 確認結帳按鈕 -->
           <div class="row px-0">
             <div class="col-12 px-0">
               <a
+                href="#"
                 class="btn btn-block btn-lg d-block d-lg-none text-decoration-none py-3 bg-yellow text-green-1 fw-bold round-0 w-100"
-                href="*"
               >
-                下一步
+                確認結帳
               </a>
             </div>
           </div>

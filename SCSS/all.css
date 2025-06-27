@@ -10603,6 +10603,11 @@ textarea.form-control-lg {
   line-height: 22px;
 }
 
+.text-size-20-28 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
 .m-y-40 {
   margin-top: 40px;
   margin-bottom: 40px;
