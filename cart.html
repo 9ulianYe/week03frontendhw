@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout-3-2</title>
+    <link rel="stylesheet" href="scss/all.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 1.navbar -->
+    <div data-include="navbar.html"></div>
+
+    <!-- 2.content -->
+
+    <div class="container">
+      <!-- 產品1 -->
+      <div class="row">
+        <!-- 產品照 -->
+        <div class="col-6">
+          <img
+            src="https://bit.ly/2QvsT63"
+            alt=""
+            style="width: 157px; height: 106px; object-fit: cover"
+          />
+        </div>
+        <!-- 品項價錢+數目  -->
+        <div class="col-6">
+          <div class="row d-flex flex-column justify-content-between">
+            <!-- 品項價錢 -->
+            <div class="col-12">
+              <span class="d-block text-green-1 text-size-20-28"
+                >焦糖馬卡龍</span
+              >
+              <span class="d-block text-green-1 text-size-16-22">NT$ 450</span>
+            </div>
+            <!-- 數目按鈕 -->
+            <div class="col-12 col-md-3 mt-4 mt-md-0">
+              <div class="input-group" style="max-width: 120px">
+                <span class="btn border border-1 border-light-green">－</span>
+                <input
+                  type="text"
+                  class="form-control text-center border-light-green"
+                  value="2"
+                  readonly
+                />
+                <span class="btn border border-1 border-light-green">＋</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 數目按鈕(close) -->
+        <div class="d-none">
+          <div
+            class="col-12 col-md-3 mt-3 mt-md-0 d-flex justify-content-center"
+          >
+            <div class="input-group" style="max-width: 120px">
+              <span class="btn border border-1 border-light-green">－</span>
+              <input
+                type="text"
+                class="form-control text-center border-light-green"
+                value="2"
+                readonly
+              />
+              <span class="btn border border-1 border-light-green">＋</span>
+            </div>
+          </div>
+        </div>
+        <!-- 總價 -->
+        <div class="col-12 text-size-20-28 text-green-1">
+          <p class="text-end mt-2 border-top border-bottom">NT$ 900</p>
+        </div>
+        <!-- 垃圾桶(close) -->
+        <div class="d-none">
+          <span class="material-icons">delete</span>
+        </div>
+      </div>
+      <!-- 產品2 -->
+
+      <!-- 產品3 -->
+    </div>
+
+    <!-- 3.footer -->
+    <div data-include="footer.html"></div>
+
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/include.js"></script>
+    <!--  -->
+  </body>
+</html>
