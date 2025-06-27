@@ -253,3 +253,10 @@
 .input-box-column-style::placeholder {
   color: #8da291;
 }
+//
+@media (min-width: 992px) {
+  .border-lg-transparent {
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+  }
+}
