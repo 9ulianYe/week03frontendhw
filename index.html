@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="scss/all.css" /> 
+    <link rel="stylesheet" href="scss/all.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -12,19 +12,113 @@
   </head>
   <body>
     <!-- navbar -->
-     <div data-include="navbar.html"></div> 
+    <div data-include="navbar.html"></div>
 
+    <section>
+      <div class="container">
+        <!-- 發票與進度條 -->
+        <div
+          class="row bg-green-1 d-flex justify-content-center align-items-center"
+        >
+          <!-- 發票標題 -->
+          <div class="col-6">
+            <h1 class="text-white fw-bold">發票</h1>
+          </div>
+          <!-- 三個圓點 -->
+          <div class="col-6">
+            <div
+              class="progress-steps d-flex justify-content-end align-items-center"
+            >
+              <span class="circle-outer"
+                ><span class="circle-inner"></span
+              ></span>
+              <span class="link-line">⎯⎯⎯⎯⎯</span>
+              <span class="circle-outer"
+                ><span class="circle-inner"></span
+              ></span>
+              <span class="link-line">⎯⎯⎯⎯⎯</span>
+              <span class="hollow-circle"></span>
+            </div>
+          </div>
+        </div>
 
+        <!-- 電子發票與郵寄發票按鈕 -->
+        <div class="row bg-green-1">
+          <div class="col-12">
+            <div class="d-flex border">
+              <!-- 電子發票（選中） -->
+              <div
+                class="flex-fill text-center py-2 bg-white text-green-1 fw-bold"
+              >
+                電子發票
+              </div>
+              <!-- 郵寄發票（超連結） -->
+              <a
+                href="#"
+                class="flex-fill text-center py-2 text-white text-decoration-none border-start"
+              >
+                郵寄發票
+              </a>
+            </div>
+          </div>
+        </div>
 
+        <!-- 電子郵件信箱 -->
+        <div class="row bg-green-1">
+          <div class="col-12">
+            <div class="input-box mb-3">
+              <label for="email" class="form-label text-white fw-bold"
+                >電子郵件信箱</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@email.com"
+                class="form-control form-control-lg input-box-column-style"
+              />
+            </div>
+          </div>
+        </div>
 
+        <!-- 統一編號 -->
+        <div class="row bg-green-1">
+          <div class="col-12">
+            <div class="input-box mb-3">
+              <label for="tax-id" class="form-label text-white fw-bold"
+                >統一編號（選填）</label
+              >
+              <input
+                type="text"
+                name="tax-id"
+                id="tax-id"
+                placeholder="12345678"
+                class="form-control form-control-lg input-box-column-style"
+              />
+            </div>
+          </div>
+        </div>
 
+        <!-- 確認結帳按鈕 -->
+        <div class="row">
+          <div class="col-12">
+            <a
+              href="#"
+              class="btn d-block w-100 bg-yellow text-green-1 text-center py-3 fw-bold text-decoration-none"
+            >
+              確認結帳
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <script src="js/include.js"></script>  
+    <script src="js/include.js"></script>
     <!--  -->
   </body>
 </html>
