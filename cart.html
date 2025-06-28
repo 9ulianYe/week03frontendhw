@@ -17,81 +17,87 @@
     <!-- 2.content -->
     <div class="row">
       <!-- 左側購物車 -->
-      <div class="col-8"></div>
-      <!-- 右側訂單摘要 -->
-      <div class="col-4"></div>
-    </div>
-
-    <div class="container">
-      <!-- 您的購物車 -->
-      <div class="row bg-green-2">
-        <div class="col-12">
-          <p class="text-center mt-3 fw-bold text-size-24-33 text-green-1">
-            您的購物車
-          </p>
-        </div>
-      </div>
-      <!-- 產品1 -->
-      <div class="row align-items-center py-3 border-bottom">
-        <!-- 圖片 -->
-        <div class="col-6 col-lg-2">
-          <img
-            src="https://bit.ly/2QvsT63"
-            alt=""
-            style="width: 157px; height: 106px; object-fit: cover"
-          />
-        </div>
-
-        <!-- 商品名稱 + 價格（手機/桌機共用） -->
-        <div class="col-6 col-lg-3 d-flex flex-column justify-content-between">
-          <div>
-            <span class="d-block text-green-1 text-size-20-28">焦糖馬卡龍</span>
-            <span class="d-block text-green-1 text-size-16-22">NT$ 450</span>
+      <div class="col-8">
+        <div class="container">
+          <!-- 您的購物車 -->
+          <div class="row bg-green-2">
+            <div class="col-12">
+              <p class="text-center mt-3 fw-bold text-size-24-33 text-green-1">
+                您的購物車
+              </p>
+            </div>
           </div>
-
-          <!-- 數量按鈕（僅手機版顯示） -->
-          <div class="mt-4 d-block d-lg-none">
-            <div class="input-group" style="max-width: 120px">
-              <span class="btn border border-1 border-light-green">－</span>
-              <input
-                type="text"
-                class="form-control text-center border-light-green"
-                value="2"
-                readonly
+          <!-- 產品1 -->
+          <div class="row align-items-center py-3 border-bottom">
+            <!-- 圖片 -->
+            <div class="col-6 col-lg-2">
+              <img
+                src="https://bit.ly/2QvsT63"
+                alt=""
+                style="width: 157px; height: 106px; object-fit: cover"
               />
-              <span class="btn border border-1 border-light-green">＋</span>
+            </div>
+
+            <!-- 商品名稱 + 價格（手機/桌機共用） -->
+            <div
+              class="col-6 col-lg-3 d-flex flex-column justify-content-between"
+            >
+              <div>
+                <span class="d-block text-green-1 text-size-20-28"
+                  >焦糖馬卡龍</span
+                >
+                <span class="d-block text-green-1 text-size-16-22"
+                  >NT$ 450</span
+                >
+              </div>
+
+              <!-- 數量按鈕（僅手機版顯示） -->
+              <div class="mt-4 d-block d-lg-none">
+                <div class="input-group" style="max-width: 120px">
+                  <span class="btn border border-1 border-light-green">－</span>
+                  <input
+                    type="text"
+                    class="form-control text-center border-light-green"
+                    value="2"
+                    readonly
+                  />
+                  <span class="btn border border-1 border-light-green">＋</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 數量按鈕（僅桌機版顯示） -->
+            <div class="d-none d-lg-flex col-lg-3 justify-content-center">
+              <div class="input-group" style="max-width: 120px">
+                <span class="btn border border-1 border-light-green">－</span>
+                <input
+                  type="text"
+                  class="form-control text-center border-light-green"
+                  value="2"
+                  readonly
+                />
+                <span class="btn border border-1 border-light-green">＋</span>
+              </div>
+            </div>
+
+            <!-- 總價 -->
+            <div class="col-12 col-lg-3 text-green-1">
+              <p
+                class="fw-bold text-size-20-28 text-end mt-2 border-top border-bottom border-lg-transparent"
+              >
+                NT$ 900
+              </p>
+            </div>
+
+            <!-- 垃圾桶（僅桌機顯示） -->
+            <div class="d-none d-lg-flex col-lg-1 justify-content-center">
+              <span class="material-icons">delete_outline</span>
             </div>
           </div>
         </div>
-
-        <!-- 數量按鈕（僅桌機版顯示） -->
-        <div class="d-none d-lg-flex col-lg-3 justify-content-center">
-          <div class="input-group" style="max-width: 120px">
-            <span class="btn border border-1 border-light-green">－</span>
-            <input
-              type="text"
-              class="form-control text-center border-light-green"
-              value="2"
-              readonly
-            />
-            <span class="btn border border-1 border-light-green">＋</span>
-          </div>
-        </div>
-
-        <!-- 總價 -->
-        <div class="col-12 col-lg-3 text-green-1">
-          <p
-            class="fw-bold text-size-20-28 text-end mt-2 border-top border-bottom border-lg-transparent"
-          >
-            NT$ 900
-          </p>
-        </div>
-
-        <!-- 垃圾桶（僅桌機顯示） -->
-        <div class="d-none d-lg-flex col-lg-1 justify-content-center">
-          <span class="material-icons">delete_outline</span>
-        </div>
       </div>
+      <!-- 右側訂單摘要 -->
+      <div class="col-4"></div>
     </div>
 
     <!-- 3.footer -->
