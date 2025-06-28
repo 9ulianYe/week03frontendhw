@@ -56,7 +56,13 @@
   color: #eaf0ed;
 }
 
-//
+//border
+.border-g2 {
+  border: #8da291 solid 2px;
+}
+.border-g1 {
+  border: #eaf0ed solid 1px;
+}
 
 .tc-style-g-2433 {
   font-size: 24px;
@@ -260,4 +266,20 @@
     border-top-color: transparent !important;
     border-bottom-color: transparent !important;
   }
+}
+//product page
+.badge-featured {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  padding: 15px 10px;
+  letter-spacing: 5px;
+}
+.heat-tag {
+  position: absolute;
+  right: 24px;
+  top: 10px;
 }
