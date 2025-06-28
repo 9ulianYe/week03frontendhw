@@ -10824,4 +10824,17 @@ textarea.form-control-lg {
   background-color: #3f5d45; /* 深綠底 */
   color: #fff;
   border: 1px solid #3f5d45;
+}
+
+.custom-card-margin {
+  margin: 30px;
+}
+
+@media (min-width: 992px) {
+  .custom-card-margin {
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
 }/*# sourceMappingURL=all.css.map */
