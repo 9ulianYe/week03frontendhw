@@ -99,45 +99,100 @@
       <!-- 右側訂單摘要 -->
       <div class="col-12 col-lg-4">
         <div class="container mx-auto">
-          <div class="col-12">
-            <!-- 訂單摘要 -->
-            <div class="row bg-green-2">
-              <div class="col-12">
-                <p class="text-size-24-33 text-green-1 fw-bold text-center">
-                  訂單摘要
-                </p>
+          <!-- 僅在網頁版顯示（lg 以上顯示，手機隱藏） -->
+          <div class="d-none d-lg-block mb-3">
+            <div class="col-12">
+              <!-- 訂單摘要 -->
+              <div class="row bg-green-1">
+                <div class="col-12 border-bottom border-white">
+                  <p
+                    class="text-size-24-33 text-white fw-bold text-center mt-3"
+                  >
+                    訂單摘要
+                  </p>
+                </div>
+              </div>
+              <!-- 小計 -->
+              <div class="row">
+                <div class="col-6">
+                  <p class="tc-style-g-1622">小計</p>
+                </div>
+                <div class="col-6">
+                  <p class="tc-style-g-1622">NT$ 2,700</p>
+                </div>
+              </div>
+              <!-- 運費 -->
+              <div class="row">
+                <div class="col-6"><p class="tc-style-g-1622">運費</p></div>
+                <div class="col-6"><p class="tc-style-g-1622">NT$ 300</p></div>
+              </div>
+              <!-- 總計 -->
+              <div class="row">
+                <div class="col-6 text-size-20-28 text-green-1 fw-bold">
+                  總計
+                </div>
+                <div class="col-6 text-size-20-28 text-green-1 fw-bold">
+                  NT$ 3,000
+                </div>
+              </div>
+              <!-- 結帳 -->
+              <div class="row px-0">
+                <div class="col-12 px-0">
+                  <a
+                    class="btn btn-block btn-lg d-block d-lg-none text-decoration-none py-3 bg-yellow text-green-1 text-size-24-33 fw-bold round-0 w-100"
+                    href="*"
+                  >
+                    結帳
+                  </a>
+                </div>
               </div>
             </div>
-            <!-- 小計 -->
-            <div class="row">
-              <div class="col-6">
-                <p class="tc-style-g-1622">小計</p>
+          </div>
+
+          <!-- 僅在手機版顯示（lg 以下顯示，桌機隱藏） -->
+          <div class="d-block d-lg-none p-3">
+            <div class="col-12">
+              <!-- 訂單摘要 -->
+              <div class="row bg-green-2">
+                <div class="col-12">
+                  <p class="text-size-24-33 text-green-1 fw-bold text-center">
+                    訂單摘要
+                  </p>
+                </div>
               </div>
-              <div class="col-6">
-                <p class="tc-style-g-1622">NT$ 2,700</p>
+              <!-- 小計 -->
+              <div class="row">
+                <div class="col-6">
+                  <p class="tc-style-g-1622">小計</p>
+                </div>
+                <div class="col-6">
+                  <p class="tc-style-g-1622">NT$ 2,700</p>
+                </div>
               </div>
-            </div>
-            <!-- 運費 -->
-            <div class="row">
-              <div class="col-6"><p class="tc-style-g-1622">運費</p></div>
-              <div class="col-6"><p class="tc-style-g-1622">NT$ 300</p></div>
-            </div>
-            <!-- 總計 -->
-            <div class="row">
-              <div class="col-6 text-size-20-28 text-green-1 fw-bold">總計</div>
-              <div class="col-6 text-size-20-28 text-green-1 fw-bold">
-                NT$ 3,000
+              <!-- 運費 -->
+              <div class="row">
+                <div class="col-6"><p class="tc-style-g-1622">運費</p></div>
+                <div class="col-6"><p class="tc-style-g-1622">NT$ 300</p></div>
               </div>
-            </div>
-            <!-- 結帳 -->
-            <div class="row px-0">
-              <div class="col-12 px-0">
-                <a
-                  class="btn btn-block btn-lg d-block d-lg-none text-decoration-none py-3 bg-yellow text-green-1 text-size-24-33 fw-bold round-0 w-100"
-                  href="*"
-                >
-                  結帳
-                </a>
+              <!-- 總計 -->
+              <div class="row">
+                <div class="col-6 text-size-20-28 text-green-1 fw-bold">
+                  總計
+                </div>
+                <div class="col-6 text-size-20-28 text-green-1 fw-bold">
+                  NT$ 3,000
+                </div>
+              </div>
+              <!-- 結帳 -->
+              <div class="row px-0">
+                <div class="col-12 px-0">
+                  <a
+                    class="btn btn-block btn-lg d-block d-lg-none text-decoration-none py-3 bg-yellow text-green-1 text-size-24-33 fw-bold round-0 w-100"
+                    href="*"
+                  >
+                    結帳
+                  </a>
+                </div>
               </div>
             </div>
           </div>
