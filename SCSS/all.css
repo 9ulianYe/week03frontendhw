@@ -10585,6 +10585,10 @@ textarea.form-control-lg {
   border: #eaf0ed solid 1px;
 }
 
+.border-bottom-green {
+  border-bottom: #eaf0ed solid 1px;
+}
+
 .tc-style-g-2433 {
   font-size: 24px;
   line-height: 44px;
@@ -10957,4 +10961,7 @@ textarea.form-control-lg {
   .mb-lg-60 {
     margin-bottom: 60px;
   }
+}
+.no-rounded {
+  border-radius: 0 !important;
 }/*# sourceMappingURL=all.css.map */
