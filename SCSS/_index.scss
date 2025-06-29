@@ -38,6 +38,10 @@
   font-size: 16px;
   line-height: 22px;
 }
+.text-size-16-32 {
+  font-size: 16px;
+  line-height: 32px;
+}
 .text-size-20-28 {
   font-size: 20px;
   line-height: 28px;
@@ -90,13 +94,15 @@
 .bg-green-2 {
   background-color: #eaf0ed;
 }
+.bg-green-3 {
+  background-color: #8da291;
+}
 .bg-yellow {
   background-color: #ffe180;
 }
 .bg-white {
   background-color: #ffffff;
 }
-
 // spacing
 .m-y-40 {
   margin-top: 40px;
