@@ -16,7 +16,7 @@
 
     <!-- 2.main -->
     <!-- 第一部分 -->
-    <div class="container">
+    <div class="container px-0">
       <div class="row justify-content-center mx-0 gx-0">
         <!-- 主頁圖片 -->
         <img
@@ -63,18 +63,26 @@
       </div>
     </div>
     <!-- 第二部份 -->
-    <div class="container">
-      <div class="row">
+    <div class="container px-0">
+      <div class="row justify-content-lg-between">
         <!-- 為什麼做甜點圖(橫) 手機版出現，web版消失 -->
-        <div class="col-6 mx-auto d-lg-none py-6">
+        <div class="col-6 d-lg-none mx-auto py-6">
           <img src="/img/sm-橫式-為什麼選擇了做甜點.svg" alt="" />
         </div>
         <!-- 產品圖 -->
-        <div class="col-12">
-          <img class="img-250" src="https://bit.ly/2xPn7Eq" alt="" />
+        <div class="col-12 col-lg-5">
+          <div class="box position-relative">
+            <img
+              class="responsive-img-height position-lg-absolute"
+              src="https://bit.ly/2xPn7Eq"
+              alt=""
+            />
+          </div>
         </div>
         <!-- 文字 -->
-        <div class="bg-green-2 col-12 p-6 text-green-2 text-size-16-32">
+        <div
+          class="bg-green-2 col-12 col-lg-4 text-vertical p-6 text-green-2 text-size-16-32"
+        >
           <p>
             青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
           </p>
@@ -83,7 +91,16 @@
           </p>
         </div>
         <!-- 為什麼做甜點圖(直) web出現，手機版版消失-->
-        <div class="col-12"></div>
+        <div class="d-none d-lg-block col-lg-2">
+          <div class="box position-relative">
+            <img
+              src="/img/lg-為什麼選擇了做甜點.svg"
+              class="position-lg-absolute"
+              style="width: 88px"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
     <!-- 3.footer -->
