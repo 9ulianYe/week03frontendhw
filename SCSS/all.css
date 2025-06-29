@@ -10837,4 +10837,10 @@ textarea.form-control-lg {
     margin-top: 30px;
     margin-bottom: 0px;
   }
+}
+.bg-index-picture {
+  height: 496px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://bit.ly/2OhbMHr");
 }/*# sourceMappingURL=all.css.map */
