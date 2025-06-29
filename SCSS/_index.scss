@@ -313,9 +313,64 @@
   }
 }
 //index page
-.bg-index-picture {
+.bg-index-main-picture {
   height: 496px;
+  object-fit: cover;
+}
+
+// index 本日精選、人氣推薦、新品上市
+.rectangle-image-wrap {
+  position: relative;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.rectangle-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  transition: filter 0.5s;
+}
+
+.bg-cover {
   background-size: cover;
   background-position: center center;
-  background-image: url("https://bit.ly/2OhbMHr");
+}
+
+.rectangle-text {
+  position: relative;
+  z-index: 2;
+  writing-mode: vertical-lr;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3f5d45;
+}
+
+/* 黃色遮罩 */
+.yellow-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 230, 128, 0.8);
+  z-index: 2;
+}
+
+/* 深綠色遮罩（附加白字） */
+.green-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(63, 93, 69, 0.8);
+  z-index: 2;
+}
+//
+.mt-minus-100px {
+  margin-top: -100px;
 }

@@ -13,9 +13,55 @@
   <body>
     <!-- 1.navbar -->
     <div data-include="navbar.html"></div>
+
+    <!-- 2.main -->
     <div class="container">
-      <div class="box">
-        <div class="bg-index-picture"></div>
+      <div class="row justify-content-center mx-0 gx-0">
+        <!-- 主頁圖片 -->
+        <img
+          class="bg-index-main-picture"
+          src="https://bit.ly/2OhbMHr"
+          alt=""
+        />
+
+        <!--  -->
+
+        <!-- 本日精選、人氣推薦、新品上市 -->
+        <div class="row mt-minus-100px gx-0">
+          <div class="col-12 col-lg-8 mx-auto">
+            <div class="row no-gutters mx-0">
+              <!-- 本日精選 -->
+              <a
+                href="#"
+                class="col-4 rectangle-image-wrap active yellow-overlay"
+              >
+                <div
+                  class="rectangle-image bg-cover"
+                  style="background-image: url('https://bit.ly/2R5tqwD')"
+                ></div>
+                <div class="rectangle-text">本日精選</div>
+              </a>
+
+              <!-- 人氣推薦 -->
+              <a href="#" class="col-4 rectangle-image-wrap green-overlay">
+                <div
+                  class="rectangle-image bg-cover"
+                  style="background-image: url('https://bit.ly/2Dwoxd7')"
+                ></div>
+                <div class="rectangle-text text-white">人氣推薦</div>
+              </a>
+
+              <!-- 新品上市 -->
+              <a href="#" class="col-4 rectangle-image-wrap green-overlay">
+                <div
+                  class="rectangle-image bg-cover"
+                  style="background-image: url('https://bit.ly/2OUteif')"
+                ></div>
+                <div class="rectangle-text text-white">新品上市</div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
