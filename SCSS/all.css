@@ -10939,6 +10939,7 @@ textarea.form-control-lg {
   .position-lg-absolute {
     position: absolute;
     top: -25px;
+    left: 40px;
   }
 }
 @media (min-width: 992px) {
