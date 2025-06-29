@@ -10898,4 +10898,11 @@ textarea.form-control-lg {
 
 .mt-minus-100px {
   margin-top: -100px;
+}
+
+.img-250 {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=all.css.map */
