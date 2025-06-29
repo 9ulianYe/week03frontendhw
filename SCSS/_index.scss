@@ -415,3 +415,16 @@
     top: -25px;
   }
 }
+
+@media (min-width: 992px) {
+  .my-lg-80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-lg-eaf0ed {
+    background-color: #eaf0ed;
+  }
+}
