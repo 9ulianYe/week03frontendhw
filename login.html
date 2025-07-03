@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
-    <link rel="stylesheet" href="scss/all.css" />
+    <link rel="stylesheet" href="SCSS/all.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -12,11 +12,13 @@
   </head>
   <body>
     <!-- navbar -->
-    <div data-include="navbar.html"></div>
+    <div id="navbar"></div>
     <!-- content -->
     <div class="content">
       <div class="container-fluid background-switch px-0">
-        <div class="row just justify-content-center align-items-center mb-0 mb-lg-5">
+        <div
+          class="row just justify-content-center align-items-center mb-0 mb-lg-5"
+        >
           <!-- 左邊的loginbox-->
           <div class="col-12 col-lg-5 bg-green-1 px-0">
             <!-- 會員登入 -->
@@ -139,8 +141,8 @@
               </div>
 
               <!-- Facebook -->
-              <div class="col-4 col-lg-12 border-g2 bg-white mb-3 ">
-                <div class="fb-img my-3 text-center ">
+              <div class="col-4 col-lg-12 border-g2 bg-white mb-3">
+                <div class="fb-img my-3 text-center">
                   <a href="#">
                     <img
                       src="img/ic-facebook-logotype.svg"
@@ -151,7 +153,7 @@
                 </div>
               </div>
               <!-- Google -->
-              <div class="col-4  col-lg-12 border-g2 bg-white mb-3 ">
+              <div class="col-4 col-lg-12 border-g2 bg-white mb-3">
                 <div class="google-img my-3 text-center">
                   <a href="#">
                     <img src="/img/ic-google.svg" alt="" style="width: 73px" />
@@ -159,7 +161,7 @@
                 </div>
               </div>
               <!-- Yahoo -->
-              <div class="col-4 col-lg-12 border-g2 bg-white mb-3 ">
+              <div class="col-4 col-lg-12 border-g2 bg-white mb-3">
                 <div class="yahoo-img my-3 text-center">
                   <a href="#">
                     <img src="/img/ic-yahoo.svg" alt="" style="width: 74.4px" />
@@ -176,7 +178,7 @@
       </div>
     </div>
 
-    <div data-include="footer.html"></div>
+    <div id="footer"></div>
 
     <!-- JS -->
     <script
@@ -184,7 +186,22 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <script src="js/include.js"></script>
+    <script>
+      // 載入 navbar
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+
+      // 載入 footer
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+
     <!--  -->
   </body>
 </html>
